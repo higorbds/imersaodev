@@ -10,6 +10,11 @@ button.addEventListener('click', () => {
   const dolarInputNum = parseFloat(dolarInput);
   const dolarValue = 5.51
   
+  if (dolarInputNum < 0) {
+    alert('Digite um número positivo!')
+    return
+  }
+
   const result = dolarInputNum * dolarValue
   const resultFormated = result.toFixed(2).toString().replace('.', ',')
 
