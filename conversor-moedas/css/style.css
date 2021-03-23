@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292929;
+  text-align: center;
+}
+
+main {
+  padding-top: 38px;
+}
+
+h1 {
+  font-family: 'Press Start 2P';
+  font-size: 36px;
+  color: #FFF;
+  text-shadow: 4px 4px 0px #7C5E99;
+}
+
+p {
+  font-family: 'Fira Code', monospace;
+  font-size: 24px;
+  color: #FFF;
+  margin-top: 48px;
+}
+
+button {
+  width: 300px;
+  height: 80px;
+  font-family: 'Press Start 2P';
+  font-size: 24px;
+  margin-top: 48px;
+  background-color: #FFDE46;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #F2D13A;
+}
+
+img.moeda {
+  margin-top: 48px;
+}
