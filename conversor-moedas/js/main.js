@@ -8,7 +8,7 @@ const resultElement = document.querySelector('.popup .result')
 button.addEventListener('click', () => {
   const dolarInput = document.querySelector('.conversor input').value
   const dolarInputNum = parseFloat(dolarInput);
-  const dolarValue = 5.51
+  const dolarValue = 5.28
   
   if (dolarInputNum < 0) {
     alert('Digite um número positivo!')
